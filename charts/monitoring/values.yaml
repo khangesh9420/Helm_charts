@@ -8,7 +8,7 @@ grafana:
 
 prometheus:
   namespace: monitoring
-  serviceName: monitoring-kube-prometheus-stack-prometheus
+  serviceName: monitoring-kube-prometheus-prometheus
   servicePort: 9090
   ingress:
     enabled: true
