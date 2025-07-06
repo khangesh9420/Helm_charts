@@ -1,4 +1,5 @@
 grafana:
+  enabled: true
   namespace: monitoring
   serviceName: monitoring-grafana
   servicePort: 80
@@ -7,8 +8,9 @@ grafana:
     host: grafana.myproject.site
 
 prometheus:
+  enabled: true
   namespace: monitoring
-  serviceName: monitoring-kube-prometheus-prometheus
+  serviceName: monitoring-prometheus
   servicePort: 9090
   ingress:
     enabled: true

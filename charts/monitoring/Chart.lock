@@ -1,0 +1,9 @@
+dependencies:
+- name: grafana
+  repository: file://charts/grafana
+  version: 0.1.0
+- name: prometheus
+  repository: file://charts/prometheus
+  version: 0.1.0
+digest: sha256:e35a8908bc294bb9c2cb6aac0c10b10ecd469a20e8f4328e415fbcb33e7d095b
+generated: "2025-07-06T17:29:13.4128805+02:00"

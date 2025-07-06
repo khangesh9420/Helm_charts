@@ -1,0 +1,6 @@
+namespace: monitoring
+serviceName: monitoring-prometheus
+servicePort: 9090
+ingress:
+  enabled: true
+  host: prometheus.myproject.site

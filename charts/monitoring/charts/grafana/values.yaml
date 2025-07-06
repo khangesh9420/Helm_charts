@@ -1,0 +1,6 @@
+namespace: monitoring
+serviceName: monitoring-grafana
+servicePort: 80
+ingress:
+  enabled: true
+  host: grafana.myproject.site
