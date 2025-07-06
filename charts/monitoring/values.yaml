@@ -1,0 +1,15 @@
+grafana:
+  namespace: monitoring
+  serviceName: monitoring-grafana
+  servicePort: 80
+  ingress:
+    enabled: true
+    host: grafana.cluster-1.local
+
+prometheus:
+  namespace: monitoring
+  serviceName: monitoring-kube-prometheus-stack-prometheus
+  servicePort: 9090
+  ingress:
+    enabled: true
+    host: prometheus.cluster-1.local
