@@ -4,7 +4,7 @@ grafana:
   servicePort: 80
   ingress:
     enabled: true
-    host: grafana.cluster-1.local
+    host: grafana.myproject.site
 
 prometheus:
   namespace: monitoring
@@ -12,4 +12,4 @@ prometheus:
   servicePort: 9090
   ingress:
     enabled: true
-    host: prometheus.cluster-1.local
+    host: prometheus.myproject.site
